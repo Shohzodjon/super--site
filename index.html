@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- Bootstrap icons link -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+  />
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+<div class="overlay"></div>
+    <header class="header">
+        <div class="nav--wrapp">
+      <div class="container py-4">
+        <nav class="header--navbar d-flex">
+          <div class="navbar--leftside d-flex">
+            <p>address:</p>
+            <h3>
+              8744 Main Street, Unit 403 <br />
+              Woodstock GA 30188
+            </h3>
+          </div>
+          <!-- end of left side bar -->
+          <!-- begin right side -->
+
+          <div class="navbar--rightside d-flex">
+            <ul class="navbar--social">
+              <li>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-telegram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-at"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input type="text" id="search" placeholder="Search" />
+              <label for="search"><i class="bi bi-search"></i></label>
+            </form>
+            <div class="navbar--menu--icon">
+              <img src="./assets/imges/menu--icon.svg" alt="menu icon" />
+            </div>
+          </div>
+        </div>
+        </nav>
+      </div>
+
+      <section class="second--navbar">
+          <div class="container d-flex justify-content-between align-items-center">
+
+     <div class="second--navbar__nav d-flex align-items-center">
+      <div class="second--navbar__menu">
+          <div class="second--navbar__menu--icon">
+              <img src="./assets/imges/menu--icon.svg" alt="menu icon"/>
+          </div>
+          <ul class="nav--links">
+            <div class="close--menu">
+              <img src="./assets/imges/close--menu.svg" alt="close--menu"/>
+            </div>
+            <li><a href="#service">services</a></li>
+            <li><a href="#about">about us</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#price">price</a></li>
+            <li><a href="#client">clients</a></li>
+            <li><a href="#contact">contact</a></li>
+         </ul>
+      </div>
+
+      <div class="second--navbar__logo">
+          <img src="./assets/imges/logo.svg"/>
+      </div>
+      
+     </div>
+
+     <p>+1 404 918 9548</p>
+
+
+          </div>
+
+      </section>
+
+<div class="header--card">
+    <div class="container">
+        <div class="d-flex header--card__parent">
+            <div class="header--card__img">
+                <img src="./assets/imges/team.png" alt="team"/>
+            </div>
+            <div class="header--card__info">
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, beatae.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi eaque nihil
+ aut dolores debitis obcaecati praesentium dolorum at ut corporis numquam iure incidunt quasi, iusto fuga accusantium
+officia cupiditate accusamus error ducimus doloremque modi cum voluptatem. Quas, voluptatum! Adipisci, iusto.</p>
+            </div>
+        </div>
+    </div>
+    <div class="header--down">
+         <a href="#">swipe</a>
+         <i class="bi bi-arrow-down anima--icon"></i>
+    </div>
+</div>
+
+
+    </header>
+
+    <!-- end of header -->
+
+    <!-- service section -->
+ <section class="service--section" id="service">
+ <div class="container">
+     <h1 class="service--header">.service</h1>
+     <div class="service--section__grid">
+
+         <div class="grid--item">
+             <div class="item--img">
+                 <img src="./assets/imges/s_picture_1.png" alt="picture"/>
+             </div>
+           <div class="item--content">
+               <h1>01</h1>
+              <a href="#">more <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+           <div class="item--footer">
+               <h2>.WEB DEVELOPING</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+             </div>
+
+         </div>
+
+         <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_2.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>02</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.WEB DESIGN</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+
+        </div>
+
+        <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_3.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>03</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.MOBILE APP DEVELOPMENT</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+
+        </div>
+
+        <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_4.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>04</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.SEO</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+
+        </div>
+
+        <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_5.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>05</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.SMM</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+
+        </div>
+
+
+        <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_6.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>06</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.DEVELOPMENT OF TELEGRAM BOT</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+
+        </div>
+
+
+        <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_7.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>07</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.ADVERTISEMENT</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_7.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>08</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.ADVERTISEMENT</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+
+        </div>
+
+
+        <div class="grid--item">
+            <div class="item--img">
+                <img src="./assets/imges/s_picture_7.png" alt="picture"/>
+            </div>
+          <div class="item--content">
+              <h1>09</h1>
+             <a href="#">more <i class="bi bi-arrow-right"></i></a>
+           </div>
+
+          <div class="item--footer">
+              <h2>.ADVERTISEMENT</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, reiciendis.</p>
+            </div>
+        </div> -->
+
+
+     </div>
+
+     <div class="contact--section">
+   <form class="form--box">
+     <div class="container">
+              <h1 class="contact--header">.contact</h1>
+              <h3 class="service--subheader">DROP US A LINE</h3>
+
+              <input type="text" class="form--input input" placeholder="Name: " required/>
+              <input type="text" class="form--input input" placeholder="Your company : " required/>
+              <input type="email" class="form--input input" placeholder="Email: " required/>
+              <input type="tel" class="form--input input" placeholder="Phone: " required/>
+
+              <button type="submit" class="form--btn">Send</button>
+   </div>
+   </form>
+     </div>
+ </div>
+ </section>
+    <!-- end of service section -->
+<!-- begin about section -->
+    <section class="about--section" id="about">
+    <div class="container my-4">
+      <div class="about--info">
+        <h1 class="about--header">.about</h1>
+        <div class="d-flex py-3 about--flex">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit 
+    sequi eligendi eos repudiandae facilis nostrum quisquam fugiat at repellendus voluptates ipsam
+     enim dignissimos ipsum, voluptas incidunt illo
+     officia obcaecati quasi maiores similique blanditiis dolorem laboriosam commodi. Harum soluta
+      deleniti placeat.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, id maxime fuga cupiditate culpa 
+        doloribus officiis ipsa nobis voluptatum mollitia vero ratione et nemo 
+        exercitationem corporis deserunt rerum, porro, tempora nesciunt harum cumque? Fuga voluptatem
+         ea aut minus laboriosam.</p>
+        </div>
+        <div class="about--img">
+<img src="./assets/imges/img.png"/>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- end of about--section -->
+    <seciton class="container--box">
+<div class="container">
+  <h1 class="conatiner--box--header">.lorem</h1>
+
+  <div class="container--box--grid">
+
+
+    <div class="box--grid--item">
+   <div class="box--grid--img">
+     <div class="wrapp--img">
+       <img src="./assets/imges/Vector.svg" alt="vector"/>
+     </div>
+    </div>
+     <div class="box--grid--info">
+       <h3>.qualty</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Voluptatibus ut saepe velit excepturi dolorum ab?</p>
+     </div>
+  
+    </div>
+
+    <div class="box--grid--item">
+      <div class="box--grid--img">
+        <div class="wrapp--img">
+          <img src="./assets/imges/Vector (1).svg" alt="vector"/>
+        </div>
+      </div>
+        <div class="box--grid--info">
+          <h3>.result</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Voluptatibus ut saepe velit excepturi dolorum ab?</p>
+        </div>
+      
+       </div>
+
+
+       <div class="box--grid--item">
+        <div class="box--grid--img">
+          <div class="wrapp--img">
+            <img src="./assets/imges/Vector (2).svg" alt="vector"/>
+          </div>
+        </div>
+          <div class="box--grid--info">
+            <h3>.strategy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               Voluptatibus ut saepe velit excepturi dolorum ab?</p>
+          </div>
+        
+         </div>
+
+         <div class="box--grid--item">
+          <div class="box--grid--img">
+            <div class="wrapp--img">
+              <img src="./assets/imges/Vector (3).svg" alt="vector"/>
+            </div>
+          </div>
+            <div class="box--grid--info">
+              <h3>.speed</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Voluptatibus ut saepe velit excepturi dolorum ab?</p>
+            </div>
+          
+           </div>
+
+           <div class="box--grid--item">
+            <div class="box--grid--img">
+              <div class="wrapp--img">
+                <img src="./assets/imges/Vector (4).svg" alt="vector"/>
+              </div>
+            </div>
+              <div class="box--grid--info">
+                <h3>.clients</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Voluptatibus ut saepe velit excepturi dolorum ab?</p>
+              </div>
+            
+             </div>
+
+             <div class="box--grid--item">
+              <div class="box--grid--img">
+                <div class="wrapp--img">
+                  <img src="./assets/imges/Vector (5).svg" alt="vector"/>
+                </div>
+              </div>
+                <div class="box--grid--info">
+                  <h3>.honesty</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Voluptatibus ut saepe velit excepturi dolorum ab?</p>
+                </div>
+            
+               </div>
+  </div>
+</div>
+    </seciton>
+
+
+    <!-- begin portfolio sectiom -->
+    <section class="portfolio--section" id="portfolio">
+    <div class="container">
+      <h1 class="portfolio--heading">.creatives</h1>
+        <span>OUR POTFOLIO</span>
+        
+        <div class="portfolio--grid">
+
+          <a href="./assets/imges/p_picture_1.png">
+      <div class="portfolio--grid--item">
+        <div class="portfolio--img">
+    <img src="./assets/imges/p_picture_2.png" alt="portfolio8">
+  </div>
+</div>
+</a>
+
+<a href="./assets/imges/p_picture_2.png">
+<div class="portfolio--grid--item">
+    <div class="portfolio--img">
+      <img src="./assets/imges/p_picture_2.png" alt="portfolio1">
+    </div>
+  </div>
+  </a>
+
+
+  <a href="./assets/imges/p_picture_3.png">
+  <div class="portfolio--grid--item">
+      <div class="portfolio--img">
+        <img src="./assets/imges/p_picture_3.png" alt="portfolio1">
+      </div>
+    </div>
+  </a >
+
+  <a href="./assets/imges/p_picture_4.png">
+    <div class="portfolio--grid--item">
+        <div class="portfolio--img">
+          <img src="./assets/imges/p_picture_4.png" alt="portfolio1">
+        </div>
+      </div>
+      </a>
+
+
+      <a href="./assets/imges/p_picture_5.png">  
+      <div class="portfolio--grid--item">
+         
+          <div class="portfolio--img">
+            <img src="./assets/imges/p_picture_5.png" alt="portfolio1">
+          </div>  
+       </div>
+    </a>
+
+<a href="./assets/imges/p_picture_6.png">
+        <div class="portfolio--grid--item">
+            <div class="portfolio--img">
+              <img src="./assets/imges/p_picture_6.png" alt="portfolio1">
+            </div>
+          </div>
+        </a>
+        </div>
+
+<div class="portfolio--btn">
+<a href="#">more <i class="bi bi-arrow-right"></i></a>
+</div>
+
+    </div>
+    </section>
+
+    <!-- Price section -->
+<section class="price--section" id="price">
+<div class="container">
+  <h1>.price</h1>
+  <div class="price--select">
+    <p>Select the service you want</p>
+
+
+    <select class="select">
+      <option value="smm" selected>SMM</option>
+      <option value="frontend" >Frontend</option>
+      <option value="java" >Java</option>
+      <option value="ios" >iOS</option>
+      <option value="python" >Python</option>
+    </select>
+  
+    <div class="price--box">
+  <div class="price--cart">
+   <div class="cart--info">
+    <h2 class="cart--info__1">Acceleration</h2>
+    <p>
+    Is simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+       unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+   </div>
+  
+       <button class="price--btn" data-btn="1">Select</button>
+  
+
+  </div>
+  <div class="price--cart">
+
+    <div class="cart--info">
+      <h2 class="cart--info__2">Acceleration</h2>
+      <p>
+      Is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+       when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+         unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+    <button class="price--btn" data-btn="2">Select</button>
+  </div>
+
+  <div class="price--cart">
+    <div class="cart--info">
+      <h2 class="cart--info__3">Turbo</h2>
+      <p>
+      Is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+       when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+         unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+    <button class="price--btn" data-btn="3">Select</button>
+  </div>
+    </div>
+
+
+  </div>
+</div>
+</section>
+    <!-- end of Price section -->
+
+    <!-- begin client section -->
+
+    <section class="client--section" id="clients">
+          
+      <h1 class="heading">.our clients</h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide reviews-slide">
+            <div class="user">
+              <img src="./assets/imges/c_picture_1.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <div class="user">
+              <img src="./assets/imges/c_picture_2.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <div class="user">
+              <img src="./assets/imges/c_picture_3.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <div class="user">
+              <img src="./assets/imges/c_picture_4.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <div class="user">
+              <img src="./assets/imges/c_picture_1.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <div class="user">
+              <img src="./assets/imges/c_picture_2.png" alt="img"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- end of begin client section -->
+
+    <!-- begin Contact section -->
+    <section class="maincontact--section" id="contact">
+      <div class="container">
+    <form class="maincontact--form">
+    <h1>.contact</h1>
+      <h3>DROP US A LINE</h3>
+
+      <div class="maincontact--input--box">
+        <div class="inside--box">
+          <input type="text" placeholder="Name:"/>
+          <input type="text" placeholder="Your company">
+        </div>
+        <div class="inside--box">
+          <input type="email" placeholder="Email:"/>
+          <input type="tel" placeholder="Phone:">
+        </div>
+      </div>
+      <button class="maincontact--btn">Send</button>
+    </form>
+      </div>
+    </section>
+    <!-- end of Contact section -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+<div class="footer--logo">
+  <img src="./assets/imges/logo.svg" alt="logo"/>
+</div>
+<div class="footer--flex">
+   <div class="footer--flex--item">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quaerat.</p>
+   </div>
+   <div class="footer--flex--item">
+     <span>Email:</span>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, facilis!</p>
+   </div>
+   <div class="footer--flex--item">
+    <span>Address:</span>
+    <p>8744 Main Street, Unit 403 Woodstock GA 30188</p>
+  </div>
+</div>
+
+<ul class="footer--social">
+    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+    <li><a href="#"><i class="bi bi-tiktok"></i></a></li>
+    <li><a href="#"><i class="bi bi-telegram"></i></a></li>
+    <li><a href="#"><i class="bi bi-at"></i></a></li>
+</ul>
+      </div>
+    </footer>
+
+    <!-- Footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+ crossorigin="anonymous"></script>
+
+
+
+    <script src="app.js"></script>
+    <script>
+      lightGallery(
+        document.querySelector(".portfolio--section .portfolio--grid")
+      );
+    </script>
+  </body>
+</html>
